@@ -1,3 +1,17 @@
+/*
+  RMIT University Vietnam
+  Course: COSC2659 iOS Development
+  Semester: 2022B
+  Assessment: Assignment 2
+  Author: DO Hoang Quan
+  ID: S3800978
+  Created  date: 14/08/2022
+  Last modified: 24/08/2022
+  Acknowledgement:
+    - https://www.zerotoappstore.com/how-to-add-background-music-in-swift.html
+ 
+*/
+
 //
 //  ContentView.swift
 //  Roulette
@@ -8,13 +22,13 @@
 import SwiftUI
 
 struct ContentView: View {
+    
+    // Initiallize LeaderboardEntries as EnvironmentObject
+    @StateObject var allEntries = LeaderboardEntries()
+    
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hello, world!")
-        }
+        // Pass LeaderboardEntries object to Main Menu and all other views from Main Menu
+        StartScreen().environmentObject(allEntries)
     }
 }
 

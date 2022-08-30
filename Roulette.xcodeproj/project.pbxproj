@@ -3,10 +3,13 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 56;
+	objectVersion = 54;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E10EFEFD28B3B2E300A0343D /* registerScoreView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E10EFEFC28B3B2E300A0343D /* registerScoreView.swift */; };
+		E112337E28AE826C00812C86 /* StartScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = E112337D28AE826C00812C86 /* StartScreen.swift */; };
+		E112338228AE890A00812C86 /* HowToPlayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E112338128AE890A00812C86 /* HowToPlayView.swift */; };
 		E13F281F28AB93E800458551 /* RouletteApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E13F281E28AB93E800458551 /* RouletteApp.swift */; };
 		E13F282128AB93E800458551 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E13F282028AB93E800458551 /* ContentView.swift */; };
 		E13F282328AB93E900458551 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E13F282228AB93E900458551 /* Assets.xcassets */; };
@@ -14,6 +17,29 @@
 		E13F283128AB93E900458551 /* RouletteTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E13F283028AB93E900458551 /* RouletteTests.swift */; };
 		E13F283B28AB93E900458551 /* RouletteUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E13F283A28AB93E900458551 /* RouletteUITests.swift */; };
 		E13F283D28AB93E900458551 /* RouletteUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E13F283C28AB93E900458551 /* RouletteUITestsLaunchTests.swift */; };
+		E159179628AE9906002D2B01 /* LeaderboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E159179528AE9906002D2B01 /* LeaderboardView.swift */; };
+		E159179828AE9980002D2B01 /* LeaderboardEntryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E159179728AE9980002D2B01 /* LeaderboardEntryView.swift */; };
+		E15CE50528ACEC860066F8EB /* Test.swift in Sources */ = {isa = PBXBuildFile; fileRef = E15CE50428ACEC860066F8EB /* Test.swift */; };
+		E15FB7FA28B7A965007B33D0 /* spin.wav in Resources */ = {isa = PBXBuildFile; fileRef = E15FB7F928B7A965007B33D0 /* spin.wav */; };
+		E165E7ED28B291D100FAB11A /* LeaderboardEntry.swift in Sources */ = {isa = PBXBuildFile; fileRef = E165E7EC28B291D100FAB11A /* LeaderboardEntry.swift */; };
+		E1A13DF228B0E56400F60F6D /* GameLogic.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1A13DF128B0E56400F60F6D /* GameLogic.swift */; };
+		E1B0917928ACB11A00EC258B /* Pocket.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1B0917828ACB11A00EC258B /* Pocket.swift */; };
+		E1B0917B28ACB7D700EC258B /* PocketBlockView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1B0917A28ACB7D700EC258B /* PocketBlockView.swift */; };
+		E1B0917D28ACD94F00EC258B /* PocketLineView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1B0917C28ACD94F00EC258B /* PocketLineView.swift */; };
+		E1B0917F28ACDCE000EC258B /* PocketSpinView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1B0917E28ACDCE000EC258B /* PocketSpinView.swift */; };
+		E1E56AA428B646B700AB0143 /* lose.wav in Resources */ = {isa = PBXBuildFile; fileRef = E1E56AA228B646B700AB0143 /* lose.wav */; };
+		E1E56AA528B646B700AB0143 /* win.wav in Resources */ = {isa = PBXBuildFile; fileRef = E1E56AA328B646B700AB0143 /* win.wav */; };
+		E1E56AA828B6481100AB0143 /* final-lose.wav in Resources */ = {isa = PBXBuildFile; fileRef = E1E56AA628B6481100AB0143 /* final-lose.wav */; };
+		E1E56AA928B6481100AB0143 /* final-win.wav in Resources */ = {isa = PBXBuildFile; fileRef = E1E56AA728B6481100AB0143 /* final-win.wav */; };
+		E1E56AAD28B649E400AB0143 /* click.wav in Resources */ = {isa = PBXBuildFile; fileRef = E1E56AAC28B649E400AB0143 /* click.wav */; };
+		E1ED13D428B50BDC00BEF866 /* BackgroundMusicPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1ED13D328B50BDC00BEF866 /* BackgroundMusicPlayer.swift */; };
+		E1ED13D628B50E4500BEF866 /* casino-jazz.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E1ED13D528B50E4400BEF866 /* casino-jazz.mp3 */; };
+		E1ED13D828B510DA00BEF866 /* SFXPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1ED13D728B510DA00BEF866 /* SFXPlayer.swift */; };
+		E1ED13DC28B5130A00BEF866 /* lobby-time.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E1ED13D928B5130900BEF866 /* lobby-time.mp3 */; };
+		E1ED13DD28B5130A00BEF866 /* street.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E1ED13DA28B5130900BEF866 /* street.mp3 */; };
+		E1ED13DE28B5130A00BEF866 /* bossa.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E1ED13DB28B5130A00BEF866 /* bossa.mp3 */; };
+		E1F2844728B10414001F20F0 /* TextExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1F2844628B10414001F20F0 /* TextExtension.swift */; };
+		E1F2844928B104E1001F20F0 /* ButtonExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1F2844828B104E1001F20F0 /* ButtonExtension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +60,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		E10EFEFC28B3B2E300A0343D /* registerScoreView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = registerScoreView.swift; sourceTree = "<group>"; };
+		E112337D28AE826C00812C86 /* StartScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartScreen.swift; sourceTree = "<group>"; };
+		E112338128AE890A00812C86 /* HowToPlayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HowToPlayView.swift; sourceTree = "<group>"; };
 		E13F281B28AB93E800458551 /* Roulette.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Roulette.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E13F281E28AB93E800458551 /* RouletteApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RouletteApp.swift; sourceTree = "<group>"; };
 		E13F282028AB93E800458551 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -45,6 +74,29 @@
 		E13F283628AB93E900458551 /* RouletteUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RouletteUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E13F283A28AB93E900458551 /* RouletteUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RouletteUITests.swift; sourceTree = "<group>"; };
 		E13F283C28AB93E900458551 /* RouletteUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RouletteUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		E159179528AE9906002D2B01 /* LeaderboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeaderboardView.swift; sourceTree = "<group>"; };
+		E159179728AE9980002D2B01 /* LeaderboardEntryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeaderboardEntryView.swift; sourceTree = "<group>"; };
+		E15CE50428ACEC860066F8EB /* Test.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Test.swift; sourceTree = "<group>"; };
+		E15FB7F928B7A965007B33D0 /* spin.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = spin.wav; sourceTree = "<group>"; };
+		E165E7EC28B291D100FAB11A /* LeaderboardEntry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeaderboardEntry.swift; sourceTree = "<group>"; };
+		E1A13DF128B0E56400F60F6D /* GameLogic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameLogic.swift; sourceTree = "<group>"; };
+		E1B0917828ACB11A00EC258B /* Pocket.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pocket.swift; sourceTree = "<group>"; };
+		E1B0917A28ACB7D700EC258B /* PocketBlockView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PocketBlockView.swift; sourceTree = "<group>"; };
+		E1B0917C28ACD94F00EC258B /* PocketLineView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PocketLineView.swift; sourceTree = "<group>"; };
+		E1B0917E28ACDCE000EC258B /* PocketSpinView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PocketSpinView.swift; sourceTree = "<group>"; };
+		E1E56AA228B646B700AB0143 /* lose.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = lose.wav; sourceTree = "<group>"; };
+		E1E56AA328B646B700AB0143 /* win.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = win.wav; sourceTree = "<group>"; };
+		E1E56AA628B6481100AB0143 /* final-lose.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "final-lose.wav"; sourceTree = "<group>"; };
+		E1E56AA728B6481100AB0143 /* final-win.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "final-win.wav"; sourceTree = "<group>"; };
+		E1E56AAC28B649E400AB0143 /* click.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = click.wav; sourceTree = "<group>"; };
+		E1ED13D328B50BDC00BEF866 /* BackgroundMusicPlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundMusicPlayer.swift; sourceTree = "<group>"; };
+		E1ED13D528B50E4400BEF866 /* casino-jazz.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "casino-jazz.mp3"; sourceTree = "<group>"; };
+		E1ED13D728B510DA00BEF866 /* SFXPlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SFXPlayer.swift; sourceTree = "<group>"; };
+		E1ED13D928B5130900BEF866 /* lobby-time.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "lobby-time.mp3"; sourceTree = "<group>"; };
+		E1ED13DA28B5130900BEF866 /* street.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = street.mp3; sourceTree = "<group>"; };
+		E1ED13DB28B5130A00BEF866 /* bossa.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = bossa.mp3; sourceTree = "<group>"; };
+		E1F2844628B10414001F20F0 /* TextExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextExtension.swift; sourceTree = "<group>"; };
+		E1F2844828B104E1001F20F0 /* ButtonExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonExtension.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,7 +147,12 @@
 		E13F281D28AB93E800458551 /* Roulette */ = {
 			isa = PBXGroup;
 			children = (
+				E1ED13D028B50AE500BEF866 /* Audio */,
+				E1B0917728ACB0C800EC258B /* Models */,
+				E13F284B28AB9A4900458551 /* Extensions */,
+				E13F284928AB954200458551 /* Views */,
 				E13F281E28AB93E800458551 /* RouletteApp.swift */,
+				E15CE50428ACEC860066F8EB /* Test.swift */,
 				E13F282028AB93E800458551 /* ContentView.swift */,
 				E13F282228AB93E900458551 /* Assets.xcassets */,
 				E13F282428AB93E900458551 /* Roulette.entitlements */,
@@ -127,6 +184,59 @@
 				E13F283C28AB93E900458551 /* RouletteUITestsLaunchTests.swift */,
 			);
 			path = RouletteUITests;
+			sourceTree = "<group>";
+		};
+		E13F284928AB954200458551 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				E159179728AE9980002D2B01 /* LeaderboardEntryView.swift */,
+				E159179528AE9906002D2B01 /* LeaderboardView.swift */,
+				E1B0917A28ACB7D700EC258B /* PocketBlockView.swift */,
+				E1B0917C28ACD94F00EC258B /* PocketLineView.swift */,
+				E1B0917E28ACDCE000EC258B /* PocketSpinView.swift */,
+				E1A13DF128B0E56400F60F6D /* GameLogic.swift */,
+				E10EFEFC28B3B2E300A0343D /* registerScoreView.swift */,
+				E112337D28AE826C00812C86 /* StartScreen.swift */,
+				E112338128AE890A00812C86 /* HowToPlayView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		E13F284B28AB9A4900458551 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				E1F2844628B10414001F20F0 /* TextExtension.swift */,
+				E1F2844828B104E1001F20F0 /* ButtonExtension.swift */,
+				E1ED13D328B50BDC00BEF866 /* BackgroundMusicPlayer.swift */,
+				E1ED13D728B510DA00BEF866 /* SFXPlayer.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		E1B0917728ACB0C800EC258B /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				E1B0917828ACB11A00EC258B /* Pocket.swift */,
+				E165E7EC28B291D100FAB11A /* LeaderboardEntry.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		E1ED13D028B50AE500BEF866 /* Audio */ = {
+			isa = PBXGroup;
+			children = (
+				E1E56AA628B6481100AB0143 /* final-lose.wav */,
+				E1E56AA728B6481100AB0143 /* final-win.wav */,
+				E1E56AAC28B649E400AB0143 /* click.wav */,
+				E1E56AA228B646B700AB0143 /* lose.wav */,
+				E1E56AA328B646B700AB0143 /* win.wav */,
+				E1ED13DB28B5130A00BEF866 /* bossa.mp3 */,
+				E15FB7F928B7A965007B33D0 /* spin.wav */,
+				E1ED13D928B5130900BEF866 /* lobby-time.mp3 */,
+				E1ED13DA28B5130900BEF866 /* street.mp3 */,
+				E1ED13D528B50E4400BEF866 /* casino-jazz.mp3 */,
+			);
+			path = Audio;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -209,7 +319,7 @@
 				};
 			};
 			buildConfigurationList = E13F281628AB93E800458551 /* Build configuration list for PBXProject "Roulette" */;
-			compatibilityVersion = "Xcode 14.0";
+			compatibilityVersion = "Xcode 12.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -233,8 +343,18 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E1E56AA928B6481100AB0143 /* final-win.wav in Resources */,
+				E1ED13DC28B5130A00BEF866 /* lobby-time.mp3 in Resources */,
 				E13F282728AB93E900458551 /* Preview Assets.xcassets in Resources */,
+				E1E56AAD28B649E400AB0143 /* click.wav in Resources */,
+				E1ED13D628B50E4500BEF866 /* casino-jazz.mp3 in Resources */,
+				E1E56AA828B6481100AB0143 /* final-lose.wav in Resources */,
+				E15FB7FA28B7A965007B33D0 /* spin.wav in Resources */,
+				E1ED13DD28B5130A00BEF866 /* street.mp3 in Resources */,
 				E13F282328AB93E900458551 /* Assets.xcassets in Resources */,
+				E1E56AA528B646B700AB0143 /* win.wav in Resources */,
+				E1ED13DE28B5130A00BEF866 /* bossa.mp3 in Resources */,
+				E1E56AA428B646B700AB0143 /* lose.wav in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,8 +379,24 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E1ED13D828B510DA00BEF866 /* SFXPlayer.swift in Sources */,
+				E159179628AE9906002D2B01 /* LeaderboardView.swift in Sources */,
 				E13F282128AB93E800458551 /* ContentView.swift in Sources */,
+				E1B0917928ACB11A00EC258B /* Pocket.swift in Sources */,
+				E1B0917F28ACDCE000EC258B /* PocketSpinView.swift in Sources */,
+				E1ED13D428B50BDC00BEF866 /* BackgroundMusicPlayer.swift in Sources */,
+				E1B0917D28ACD94F00EC258B /* PocketLineView.swift in Sources */,
+				E112337E28AE826C00812C86 /* StartScreen.swift in Sources */,
+				E1A13DF228B0E56400F60F6D /* GameLogic.swift in Sources */,
+				E165E7ED28B291D100FAB11A /* LeaderboardEntry.swift in Sources */,
+				E1B0917B28ACB7D700EC258B /* PocketBlockView.swift in Sources */,
+				E112338228AE890A00812C86 /* HowToPlayView.swift in Sources */,
+				E10EFEFD28B3B2E300A0343D /* registerScoreView.swift in Sources */,
+				E15CE50528ACEC860066F8EB /* Test.swift in Sources */,
 				E13F281F28AB93E800458551 /* RouletteApp.swift in Sources */,
+				E159179828AE9980002D2B01 /* LeaderboardEntryView.swift in Sources */,
+				E1F2844928B104E1001F20F0 /* ButtonExtension.swift in Sources */,
+				E1F2844728B10414001F20F0 /* TextExtension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -430,6 +566,7 @@
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				"IPHONEOS_DEPLOYMENT_TARGET[sdk=iphoneos*]" = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 13.0;
@@ -437,7 +574,9 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.quando.rmit.Roulette;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = YES;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -468,6 +607,7 @@
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				"IPHONEOS_DEPLOYMENT_TARGET[sdk=iphoneos*]" = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 13.0;
@@ -475,7 +615,9 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.quando.rmit.Roulette;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = YES;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
